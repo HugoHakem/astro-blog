@@ -1,2 +1,8 @@
 # direnv
 .direnv
+
+# node
+node_modules
+
+# astro
+.astro

@@ -33,6 +33,7 @@
         # General packages for your dev shell
         packages = (with pkgs; [
           pnpm
+          nodejs_22
           # e.g, package-name
         ]);
         
