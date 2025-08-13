@@ -5,13 +5,59 @@ console.log('This runs in your terminal, not the browser!');
 ---
 <!-- Below is your "component template." It's just HTML, but with
     some magic sprinkled in to help you build great templates. -->
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Personal Website</title>
+    <meta name="viewport" content="width=device-width" />
+    <style contenteditable style="display: block; font-family: monospace; white-space: pre;">
+      head { display: block; }
+      head * { display: none; }
+      :root {
+        --theme-color: #226DAA;
+      }
+      h1 {
+        color: orange;
+      }
+    </style>
+  </head>
   <body>
     <h1>Hello, World!</h1>
+    <p>This paragraph has some <strong><em>strongly emphasized</em></strong> content </p>
+    <ul>
+      <li>Blendan Smooth
+      <li>Hoover Sukhdeep
+      <li>Toasty McToastface
+    </ul>
+    <figure>
+      <figcaption>
+        Summary of expression variability across tissues. Note the unusually high variance in the liver, which may indicate batch effects or sampling issues.
+      </figcaption>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tissue</th>
+            <th>Mean Expression</th>
+            <th>Std Dev</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Liver</td>
+            <td>7.2</td>
+            <td>3.9</td>
+          </tr>
+          <tr>
+            <td>Brain</td>
+            <td>6.1</td>
+            <td>1.2</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+
   </body>
 </html>
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
+
+
